@@ -10,7 +10,7 @@ namespace Resharper.Issue.CppCliResolve
             Console.WriteLine("The following line is red if ReSharper enabled.");
             var emote = new Emote(IntPtr.Zero, 100, 100);
             emote.ChallengeResharper();
-            Console.WriteLine("BuIt builds without error.");
+            Console.WriteLine("But it builds without error.");
             Console.ReadLine();
         }
     }
